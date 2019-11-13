@@ -1,0 +1,4 @@
+.commands
+*.jpg
+uploads/
+server/node_modules/

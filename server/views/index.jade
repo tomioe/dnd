@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to the #{title}
+  form(action="/upload", method="post", class="dropzone", enctype="multipart/form-data", id="dn-dropzone")
+  script(src='javascripts/index.js')
